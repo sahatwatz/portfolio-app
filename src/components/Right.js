@@ -141,17 +141,11 @@ export const Right = () => {
             </a>
           </h1>
           <p>
-            As a student who studied at{" "}
-            <a href="https://www.kmitl.ac.th/" target="_blank">
-              <b>KMITL</b>
-            </a>{" "}
-            Faculty of Information Technology, I have learned many things that
-            will be useful in the future. However, my expertise lies in website
-            development as a{" "}
-            <a className="link1">
-              <span>Frontend Developer</span>
-            </a>
-            . I am proficient
+            Manage the Facebook page and oversee the business suite on Google,
+            taking care of various aspects such as responding to chats, replying
+            to customer reviews, and creating graphics for different occasions.
+            Since this is a part-time job, I have free time to develop my
+            programming skills and continue working on website projects.
           </p>
         </div>
       </div>
