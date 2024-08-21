@@ -1,0 +1,129 @@
+/*------------------------------------
+Left Body
+------------------------------------*/
+.top-content {
+  height: 20%;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.role {
+  position: relative;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.role h2 {
+  position: relative;
+  bottom: 100%;
+}
+
+.overtop {
+  display: flex;
+  justify-content: center;
+}
+
+.profiles {
+  filter: drop-shadow(5px 5px 10px #000000);
+  width: 40%;
+  height: auto; /* Ensures the image maintains its aspect ratio */
+  max-width: 100%;
+}
+
+.left-column {
+  width: 30%;
+  position: fixed;
+  height: 95%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-right: 0;
+}
+
+.left-column h1 {
+  justify-content: center;
+  font-size: 45px;
+  letter-spacing: -1.5px;
+  padding: 0;
+}
+.left-column h2 {
+  color: antiquewhite;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 0;
+}
+
+.left-content-box {
+  padding-top: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+/* List animation */
+.list {
+    position: relative;
+    justify-content: left;
+  }
+  .list ul {
+    width: 30%;
+    position: relative;
+  }
+  .list ul li {
+    position: relative;
+    left: 0;
+    color: #ffffff;
+    list-style: none;
+    margin: 4px 0;
+  
+    border-left: 1px solid #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .list ul li span {
+    position: relative;
+    padding: 8px;
+    padding-left: 12px;
+    display: inline-block;
+    z-index: 1;
+    transition: 0.1s;
+  }
+  .list ul li:hover span {
+    color: #ffffff;
+  }
+  .list ul li:before {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: 0.5s;
+  }
+  
+  .move-animation {
+    transform: translateX(20px);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .freeze-animation {
+    animation-play-state: paused;
+  }
+
+.logo-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 5%; /* Space between logos */
+  margin-top: auto;
+  justify-content: center;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}

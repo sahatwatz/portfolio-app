@@ -1,0 +1,49 @@
+/*------------------------------------
+Body
+------------------------------------*/
+
+body {
+    margin: 0;
+    font-family: "Centra", sans-serif !important;
+    background-image: linear-gradient(
+      to right bottom,
+      #312742,
+      #252034,
+      #1b1926,
+      #111018,
+      #030304
+    );
+    background-attachment: fixed;
+    color: white;
+  }
+  
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    min-height: 100vh;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  /* modify link decoration */
+a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a:active {
+    text-decoration: none;
+  }
