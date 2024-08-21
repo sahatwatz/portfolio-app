@@ -27,6 +27,7 @@ Left Body
 }
 
 .profiles {
+  border-radius: 10%;
   filter: drop-shadow(5px 5px 10px #000000);
   width: 40%;
   height: auto; /* Ensures the image maintains its aspect ratio */
