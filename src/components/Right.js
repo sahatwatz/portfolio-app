@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import skill1 from "../assets/img/react.svg";
 import skill2 from "../assets/img/figma.svg";
 import skill3 from "../assets/img/premier.svg";
