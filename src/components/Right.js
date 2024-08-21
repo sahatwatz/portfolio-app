@@ -15,8 +15,7 @@ import project3 from "../assets/img/honeytoast.png";
 import popuptoeic from "../assets/img/popuptoeic.jpg";
 
 export const Right = () => {
-
-    const [popupImage, setPopupImage] = useState(null);
+  const [popupImage, setPopupImage] = useState(null);
 
   const openPopup = (imageSrc) => {
     setPopupImage(imageSrc);
