@@ -30,23 +30,27 @@ export const Right = () => {
       <div id="about-section" className="content">
         <p>
           As a student who studied at{" "}
-          <a href="https://www.kmitl.ac.th/" target="_blank">
+          <a
+            href="https://www.kmitl.ac.th/"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
             <b>KMITL</b>
           </a>{" "}
           Faculty of Information Technology, I have learned many things that
           will be useful in the future. However, my expertise lies in website
           development as a{" "}
-          <a className="link1">
+          <a href="#" className="link1">
             <span>Frontend Developer</span>
           </a>
           . I am proficient in using HTML, CSS, and JavaScript, including
           frameworks like React and Vue.js. Additionally, I have experience
           using other web development tools such as{" "}
-          <a className="link2">
+          <a href="#" className="link2">
             <span>GitHub</span>
           </a>{" "}
           and{" "}
-          <a className="link3">
+          <a href="#" className="link3">
             <span>Figma</span>
           </a>
           , which make code development and management more systematic.
@@ -136,6 +140,7 @@ export const Right = () => {
               href="https://www.facebook.com/profile.php?id=100095085167540"
               className="link4"
               target="_blank"
+              rel="noopener noreferrer nofollow"
             >
               <span>Yellow Bird Barber ⤴</span>
             </a>
@@ -158,7 +163,12 @@ export const Right = () => {
         <div className="detail">
           <h1>
             University Student in IT ·{" "}
-            <a href="#" className="link5" target="_blank">
+            <a
+              href="https://www.kmitl.ac.th/"
+              className="link5"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
               <span>KMITL ⤴</span>
             </a>
           </h1>
@@ -185,6 +195,7 @@ export const Right = () => {
               href="https://psit-ffa8a.firebaseapp.com/"
               className="link6"
               target="_blank"
+              rel="noopener noreferrer nofollow"
             >
               <span>Esports Trends · Web development ⤴</span>
             </a>
@@ -226,6 +237,7 @@ export const Right = () => {
               href="https://www.youtube.com/watch?v=mTp3HBZ9lwE"
               className="link6"
               target="_blank"
+              rel="noopener noreferrer nofollow"
             >
               <span>Tesla (clone) · Web development ⤴</span>
             </a>
