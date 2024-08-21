@@ -65,6 +65,7 @@ Left Body
 
 /* List animation */
 .list {
+  bottom: 20%;
     position: relative;
     justify-content: left;
   }
