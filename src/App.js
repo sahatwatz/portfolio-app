@@ -9,6 +9,7 @@ import {
   useSectionObserver,
   scrollToSection,
 } from "./components/Script";
+import PreLoader from "./components/PreLoader";
 
 function App() {
   const { popupImage, openPopup, closePopup } = usePopupImage();
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <div className="App">
+      <PreLoader />
       <div className="container">
         <Left scrollToSection={scrollToSection} />
         <Right
