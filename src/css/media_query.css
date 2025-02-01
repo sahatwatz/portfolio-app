@@ -56,6 +56,7 @@ Media Query
   }
 
   .logo-container {
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -63,7 +64,6 @@ Media Query
 
   .list ul {
     font-size: 80%;
-    display: flex;
     justify-content: space-around;
   }
 }
@@ -125,13 +125,13 @@ Media Query
   }
 
   .logo-container {
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
   }
 
   .list ul {
-    display: flex;
     justify-content: space-around;
   }
 
@@ -190,6 +190,7 @@ Media Query
   }
 
   .logo-container {
+    padding-top: 20px;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -197,7 +198,6 @@ Media Query
   }
 
   .list ul {
-    display: flex;
     justify-content: space-around;
   }
   .content-box1 img {
@@ -254,6 +254,7 @@ Media Query
   }
 
   .logo-container {
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
