@@ -22,7 +22,7 @@ export const useSectionObserver = () => {
       { id: "about-section", listIndex: 0 },
       { id: "skills-section", listIndex: 1 },
       { id: "experience-section", listIndex: 2 },
-      { id: "projects-section", listIndex: 3 },
+      { id: "projects-section", listIndex: 3 }
     ];
 
     const observer = new IntersectionObserver(
@@ -67,4 +67,43 @@ export const scrollToSection = (id) => {
   if (element) {
     element.scrollIntoView({ behavior: "smooth" });
   }
+};
+
+export const useCopyText = () => {
+  const [popup, setMessage] = useState(null);
+
+  useEffect(() => {
+    const handleCopyText = (event) => {
+      const text = event.target.innerText;
+
+      // สร้าง TextArea ชั่วคราวเพื่อคัดลอกข้อความ
+      const textArea = document.createElement("textarea");
+      textArea.value = text;
+      document.body.appendChild(textArea);
+      textArea.select();
+      document.execCommand("copy");
+
+      // ลบ TextArea ชั่วคราว
+      document.body.removeChild(textArea);
+
+      // แสดงข้อความว่า "คัดลอกแล้ว"
+      setMessage({ text: "Email Copied!" });
+      setTimeout(() => {
+        setMessage(null);
+      }, 2000); // ซ่อนข้อความหลังจาก 2 วินาที
+    };
+
+    const copyTextElement = document.getElementById("copyText");
+    if (copyTextElement) {
+      copyTextElement.addEventListener("click", handleCopyText);
+    }
+
+    return () => {
+      if (copyTextElement) {
+        copyTextElement.removeEventListener("click", handleCopyText);
+      }
+    };
+  }, []);
+
+  return { popup };
 };

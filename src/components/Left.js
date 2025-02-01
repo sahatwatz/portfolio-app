@@ -3,15 +3,17 @@ import logo2 from "../assets/img/nav-icon2.svg";
 import logo3 from "../assets/img/nav-icon3.svg";
 import logo4 from "../assets/img/githubicon.svg";
 import profile from "../assets/img/me.png";
+import { useCopyText } from "./Script";
 
 export const Left = () => {
+  const { popup, handleCopyTexts } = useCopyText();
 
-    const scrollToSection = (id) => {
-        const element = document.getElementById(id);
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth" });
-        }
-      };
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <div className="left-column">
@@ -78,8 +80,28 @@ export const Left = () => {
         </a>
       </div>
       <br></br>
-      <div className="footer">
-        <p>sahasawat.na@gmail.com</p>
+      <div className="footer" id="copyText">
+        <p id="copyText">sahasawat.na@gmail.com</p>
+
+        {popup && (
+          <div
+            className="popup-message"
+            style={{
+              position: "absolute",
+              top: "100%",
+              left: "35%",
+              background: "white",
+              opacity: 0,
+              color: "black",
+              padding: "8px 12px",
+              borderRadius: "22px",
+              zIndex: 1000,
+              animation: "fadeInOut 2s forwards"
+            }}
+          >
+            {popup.text}
+          </div>
+        )}
       </div>
     </div>
   );

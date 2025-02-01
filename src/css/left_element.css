@@ -67,54 +67,54 @@ Left Body
 /* List animation */
 .list {
   bottom: 20%;
-    position: relative;
-    justify-content: left;
-  }
-  .list ul {
-    width: 30%;
-    position: relative;
-  }
-  .list ul li {
-    position: relative;
-    left: 0;
-    color: #ffffff;
-    list-style: none;
-    margin: 4px 0;
-  
-    border-left: 1px solid #ffffff;
-    transition: 0.5s;
-    cursor: pointer;
-  }
-  
-  .list ul li span {
-    position: relative;
-    padding: 8px;
-    padding-left: 12px;
-    display: inline-block;
-    z-index: 1;
-    transition: 0.1s;
-  }
-  .list ul li:hover span {
-    color: #ffffff;
-  }
-  .list ul li:before {
-    content: "";
-    position: absolute;
-    width: 30%;
-    height: 100%;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: 0.5s;
-  }
-  
-  .move-animation {
-    transform: translateX(20px);
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .freeze-animation {
-    animation-play-state: paused;
-  }
+  position: relative;
+  justify-content: left;
+}
+.list ul {
+  width: 30%;
+  position: relative;
+}
+.list ul li {
+  position: relative;
+  left: 0;
+  color: #ffffff;
+  list-style: none;
+  margin: 4px 0;
+
+  border-left: 1px solid #ffffff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.list ul li span {
+  position: relative;
+  padding: 8px;
+  padding-left: 12px;
+  display: inline-block;
+  z-index: 1;
+  transition: 0.1s;
+}
+.list ul li:hover span {
+  color: #ffffff;
+}
+.list ul li:before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: 0.5s;
+}
+
+.move-animation {
+  transform: translateX(20px);
+  transition: transform 0.5s ease-in-out;
+}
+
+.freeze-animation {
+  animation-play-state: paused;
+}
 
 .logo-container {
   position: relative;
@@ -128,4 +128,26 @@ Left Body
 .img {
   max-width: 100%;
   height: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.popup-message {
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
