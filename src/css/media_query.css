@@ -26,7 +26,7 @@ Media Query
 
   .profiles {
     width: 30%;
-    height: 30%;
+    height: 40%;
     margin: 0;
   }
 
@@ -68,15 +68,18 @@ Media Query
   }
 }
 
+.content-box1 img {
+  width: 20px;
+}
+
 /* small Mobile */
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 400px) and (max-width: 500px) {
   .top-content {
-    width: 120%;
+    width: 100%;
     justify-content: center;
   }
   .left-column {
     width: 200%;
-
     margin-bottom: 20px;
     text-align: center;
   }
@@ -94,7 +97,6 @@ Media Query
 
   .profiles {
     width: 40%;
-    padding-left: 15%;
   }
 
   .flagpic {
@@ -119,7 +121,7 @@ Media Query
     height: auto;
     flex-direction: column;
     align-items: flex-start;
-    padding-bottom: 60%;
+    padding-bottom: 0%;
   }
 
   .logo-container {
@@ -131,6 +133,14 @@ Media Query
   .list ul {
     display: flex;
     justify-content: space-around;
+  }
+
+  .content-box1 {
+    width: 20%;
+  }
+
+  .content-box1 img {
+    width: 20px;
   }
 }
 
@@ -190,6 +200,9 @@ Media Query
     display: flex;
     justify-content: space-around;
   }
+  .content-box1 img {
+    width: 30px;
+  }
 }
 
 /* Huge Mobile */
@@ -247,9 +260,15 @@ Media Query
   }
 
   .list ul {
+    left: -10%;
+    font-size: 60%;
     margin-left: 0;
-    width: 50%;
+    width: 100%;
     justify-content: space-around;
+  }
+
+  .content-box1 img {
+    width: 40px;
   }
 }
 
