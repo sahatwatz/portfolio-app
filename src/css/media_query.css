@@ -2,6 +2,72 @@
 Media Query
 ------------------------------------*/
 
+/* smaller Mobile */
+@media screen and (min-width: 200px) and (max-width: 399px) {
+  .top-content {
+    width: 100%;
+    justify-content: center;
+  }
+  .left-column {
+    width: 200%;
+    text-align: center;
+  }
+
+  .left-content-box {
+    width: 90%;
+    text-align: center;
+  }
+  .right-column {
+    width: 100%;
+    margin-left: 0;
+    padding: 30px;
+    padding-bottom: 10%;
+  }
+
+  .profiles {
+    width: 30%;
+    height: 30%;
+    margin: 0;
+  }
+
+  .flagpic {
+    display: none;
+  }
+
+  .content-box1 img {
+    width: 40px;
+  }
+
+  .year {
+    width: 50%;
+  }
+
+  .detail {
+    width: auto;
+    padding: 10%;
+    padding-bottom: 10%;
+  }
+
+  .content-box {
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 60%;
+  }
+
+  .logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .list ul {
+    font-size: 80%;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
 /* small Mobile */
 @media screen and (max-width: 400px) {
   .top-content {
@@ -135,6 +201,7 @@ Media Query
   }
 
   .top-content {
+    width: 100%;
     justify-content: center;
   }
   .left-content-box {
@@ -148,7 +215,8 @@ Media Query
   }
 
   .profiles {
-    width: 40%;
+    margin: 0;
+    width: 50%;
   }
 
   .flagpic {
@@ -156,7 +224,7 @@ Media Query
   }
 
   .content-box1 img {
-    width: 40px;
+    width: 10%;
   }
 
   .detail {
@@ -179,8 +247,8 @@ Media Query
   }
 
   .list ul {
-    padding-left: 20%;
-    display: flex;
+    margin-left: 0;
+    width: 50%;
     justify-content: space-around;
   }
 }
@@ -306,9 +374,10 @@ Media Query
 /* Desktop (default) */
 @media screen and (min-width: 801px) and (max-width: 1000px) {
   .left-column {
-    width: 40%;
+    font-size: 10%;
+    width: 45%;
     position: fixed;
-    height: 150%;
+    height: 90%;
   }
 
   .right-column {
@@ -318,10 +387,60 @@ Media Query
   }
 
   .profiles {
-    width: 40%;
+    width: 20%;
   }
   .left-content-box {
-    width: 120%;
+    width: 100%;
+    text-align: center;
+  }
+  .top-content {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .top-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .flagpic {
+    display: none;
+  }
+
+  .content-box {
+    height: auto;
+    width: 90%;
+  }
+
+  .content-box1 img {
+    width: 80px;
+  }
+
+  .logo-container {
+    flex-direction: row;
+  }
+}
+
+/* another Desktop*/
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+  .left-column {
+    font-size: 5%;
+    width: 40%;
+    position: fixed;
+    height: 80%;
+  }
+
+  .right-column {
+    width: 75%;
+    margin-left: 50%;
+    padding: 20px;
+  }
+
+  .profiles {
+    width: 30%;
+  }
+  .left-content-box {
+    width: 100%;
+    justify-content: center;
     text-align: center;
   }
   .top-content {
@@ -350,13 +469,12 @@ Media Query
     flex-direction: row;
   }
 }
-
-/* another Desktop*/
-@media screen and (min-width: 1001px) and (max-width: 1577px) {
+/* another Desktop 2*/
+@media screen and (min-width: 1201px) and (max-width: 1577px) {
   .left-column {
     width: 40%;
     position: fixed;
-    height: 150%;
+    height: 90%;
   }
 
   .right-column {
@@ -366,7 +484,7 @@ Media Query
   }
 
   .profiles {
-    width: 40%;
+    width: 30%;
   }
   .left-content-box {
     width: 100%;
@@ -543,7 +661,7 @@ Media Query
     flex-direction: row;
   }
 }
-/*zoom more than 50% Desktop */
+/*zoom out than 50% Desktop */
 @media screen and (min-width: 7001px) and (max-width: 300000px) {
   .left-column {
     width: 7%;

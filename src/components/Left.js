@@ -89,14 +89,14 @@ export const Left = () => {
             style={{
               position: "absolute",
               top: "100%",
-              left: "35%",
+              margin: "0",
               background: "white",
               opacity: 0,
               color: "black",
               padding: "8px 12px",
               borderRadius: "22px",
               zIndex: 1000,
-              animation: "fadeInOut 2s forwards"
+              animation: "fadeInOut 1.5s forwards"
             }}
           >
             {popup.text}
