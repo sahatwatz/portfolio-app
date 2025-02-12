@@ -325,11 +325,11 @@ export const Right = () => {
           </h1>
           <div className="box-text-text">
             <p>
-              During the Valentine's Day. I created Web App to joy the lovely
-              atmosphere by using React, Vite, Tailwind simple tools to make
-              this funny Web App. Its contains MusicPlayer, Tricky refuse button
-              that always runaway when you try to hover it or even click on it,
-              that's mean you can't refuse love from creator ha ha.
+              During Valentine's Day, I created a Web App to enjoy the lovely
+              atmosphere by using React, Vite, Tailwind and simple tools to make
+              this fun Web App. It contains MusicPlayer, a Tricky refuse button
+              that always runs when you try to hover it or even click on it.
+              That's mean you can't refuse love from creator ha ha.
             </p>
           </div>
           <div className="skill-span">
