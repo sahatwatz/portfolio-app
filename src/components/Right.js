@@ -329,7 +329,7 @@ export const Right = () => {
               atmosphere by using React, Vite, Tailwind and simple tools to make
               this fun Web App. It contains MusicPlayer, a Tricky refuse button
               that always runs when you try to hover it or even click on it.
-              That's mean you can't refuse love from creator ha ha.
+              That means you can't refuse love from creator ha ha.
             </p>
           </div>
           <div className="skill-span">
