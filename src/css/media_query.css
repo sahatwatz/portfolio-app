@@ -55,21 +55,42 @@ Media Query
     padding-bottom: 60%;
   }
 
+  .content-box2 {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .box-pic {
+    width: 100%;
+    padding-bottom: 10%;
+    transform: translateY(-15%);
+    padding-left: 1%;
+    margin-top: 0;
+  }
+
+  .box-text {
+    width: 100%;
+  }
+
+  .box-text span {
+    padding: 0;
+  }
+
   .logo-container {
     padding-top: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
   }
-
+  .content-box1 img {
+    width: 20px;
+  }
   .list ul {
     font-size: 80%;
     justify-content: space-around;
   }
-}
-
-.content-box1 img {
-  width: 20px;
 }
 
 /* small Mobile */
@@ -122,6 +143,29 @@ Media Query
     flex-direction: column;
     align-items: flex-start;
     padding-bottom: 0%;
+  }
+
+  .content-box2 {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .box-pic {
+    width: 100%;
+    padding-bottom: 10%;
+    transform: translateY(-15%);
+    padding-left: 1%;
+    margin-top: 0;
+  }
+
+  .box-text {
+    width: 100%;
+  }
+
+  .box-text span {
+    padding: 0;
   }
 
   .logo-container {
@@ -320,6 +364,33 @@ Media Query
     align-items: flex-start;
   }
 
+  .content-box2 {
+    padding-bottom: 10px;
+    transform: translateX(30%);
+    margin: 1;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .box-pic {
+    width: 100%;
+    padding-bottom: 10%;
+    transform: translateY(-5%);
+    padding-left: 1%;
+    margin-top: 0;
+  }
+
+  .box-text {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .box-text span {
+    padding: 0;
+  }
+
   .logo-container {
     justify-content: center;
   }
@@ -328,6 +399,14 @@ Media Query
     padding-left: 20%;
     display: flex;
     justify-content: space-around;
+  }
+
+  .for-dot {
+    transform: translateX(30%);
+  }
+
+  .footer2 {
+    transform: translateX(30%);
   }
 }
 
@@ -379,6 +458,33 @@ Media Query
     align-items: flex-start;
   }
 
+  .content-box2 {
+    padding-bottom: 10px;
+    transform: translateX(30%);
+    margin: 1;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .box-pic {
+    width: 100%;
+    padding-bottom: 10%;
+    transform: translateY(-5%);
+    padding-left: 1%;
+    margin-top: 0;
+  }
+
+  .box-text {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .box-text span {
+    padding: 0;
+  }
+
   .logo-container {
     justify-content: center;
   }
@@ -388,6 +494,14 @@ Media Query
     display: flex;
 
     justify-content: space-around;
+  }
+
+  .for-dot {
+    transform: translateX(30%);
+  }
+
+  .footer2 {
+    transform: translateX(30%);
   }
 }
 

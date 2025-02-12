@@ -12,6 +12,7 @@ import skill10 from "../assets/img/toeic2.svg";
 import project1 from "../assets/img/esports-web.png";
 import project2 from "../assets/img/tesla.png";
 import project3 from "../assets/img/honeytoast.png";
+import project4 from "../assets/img/clove.png";
 import popuptoeic from "../assets/img/popuptoeic.jpg";
 
 export const Right = () => {
@@ -142,7 +143,7 @@ export const Right = () => {
               target="_blank"
               rel="noopener noreferrer nofollow"
             >
-              <span>Yellow Bird Barber ⤴</span>
+              <span>Yellow Bird Barber</span>
             </a>
           </h1>
           <p>
@@ -169,7 +170,7 @@ export const Right = () => {
               target="_blank"
               rel="noopener noreferrer nofollow"
             >
-              <span>KMITL ⤴</span>
+              <span>KMITL</span>
             </a>
           </h1>
           <p>
@@ -197,7 +198,7 @@ export const Right = () => {
               target="_blank"
               rel="noopener noreferrer nofollow"
             >
-              <span>Esports Trends · Web development ⤴</span>
+              <span>Esports Trends</span>
             </a>
           </h1>
           <div className="box-text-text">
@@ -239,7 +240,7 @@ export const Right = () => {
               target="_blank"
               rel="noopener noreferrer nofollow"
             >
-              <span>Tesla (clone) · Web development ⤴</span>
+              <span>Tesla (clone)</span>
             </a>
           </h1>
           <div className="box-text-text">
@@ -274,7 +275,7 @@ export const Right = () => {
         <div className="box-text">
           <h1>
             <a href="#" className="link6" target="_blank">
-              <span>HoneyToast · Web development ⤴</span>
+              <span>HoneyToast</span>
             </a>
           </h1>
           <div className="box-text-text">
@@ -307,6 +308,52 @@ export const Right = () => {
           </div>
         </div>
       </div>
+
+      <div className="content-box2">
+        <div className="box-pic">
+          <img src={project4} alt="project 3" />
+        </div>
+        <div className="box-text">
+          <h1>
+            <a
+              href="https://playground-v.vercel.app/"
+              className="link6"
+              target="_blank"
+            >
+              <span>Valentine · Playground</span>
+            </a>
+          </h1>
+          <div className="box-text-text">
+            <p>
+              During the Valentine's Day. I created Web App to joy the lovely
+              atmosphere by using React, Vite, Tailwind simple tools to make
+              this funny Web App. Its contains MusicPlayer, Tricky refuse button
+              that always runaway when you try to hover it or even click on it,
+              that's mean you can't refuse love from creator ha ha.
+            </p>
+          </div>
+          <div className="skill-span">
+            <div className="skill-box">
+              <p>React</p>
+            </div>
+            <div className="skill-box">
+              <p>Vite</p>
+            </div>
+            <div className="skill-box">
+              <p>Tailwind</p>
+            </div>
+          </div>
+          <div className="skill-span">
+            <div className="skill-box">
+              <p>JavaScript</p>
+            </div>
+            <div className="skill-box">
+              <p>GitHub</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="for-dot">
         <div className="bouncing-loader">
           <div></div>
@@ -318,7 +365,7 @@ export const Right = () => {
         <h3>new project soon..</h3>
       </div>
       <div className="footer2">
-        <h3>Built by Sahasawat Nantakun</h3>
+        <h3>&copy; 2024 Built by Sahasawat Nantakun</h3>
       </div>
     </div>
   );
