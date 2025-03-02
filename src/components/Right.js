@@ -1,10 +1,12 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from "react";
 import skill1 from "../assets/img/react.svg";
 import skill2 from "../assets/img/figma.svg";
 import skill3 from "../assets/img/premier.svg";
 import skill4 from "../assets/img/photoshop.svg";
 import skill5 from "../assets/img/javascript.svg";
-import skill6 from "../assets/img/vue.svg";
+import skill6 from "../assets/img/tailwindcss.svg";
 import skill7 from "../assets/img/html.svg";
 import skill8 from "../assets/img/css.svg";
 import skill9 from "../assets/img/github.svg";
@@ -13,6 +15,7 @@ import project1 from "../assets/img/esports-web.png";
 import project2 from "../assets/img/tesla.png";
 import project3 from "../assets/img/honeytoast.png";
 import project4 from "../assets/img/clove.png";
+import project5 from "../assets/img/kavi.png";
 import popuptoeic from "../assets/img/popuptoeic.jpg";
 
 export const Right = () => {
@@ -131,9 +134,34 @@ export const Right = () => {
       </div>
       <div className="content-box">
         <div className="year">
-          <p>2024 - PRESENT</p>
+          <p>2025 - PRESENT</p>
         </div>
-
+        <div className="detail">
+          <h1>
+            Frontend Developer ·{" "}
+            <a
+              href="https://www.facebook.com/profile.php?id=100095085167540"
+              className="link4"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              <span>Freelance</span>
+            </a>
+          </h1>
+          <p>
+            My current focus is on advancing my website development capabilities
+            through the practical application of tools such as Motion for
+            animation, Jest for testing, and Redux for state management. I'm
+            also committed to refining my UX/UI design expertise and regularly
+            publishing my latest projects. Please feel free to explore my works
+            down below
+          </p>
+        </div>
+      </div>
+      <div className="content-box">
+        <div className="year">
+          <p>2023 - 2025</p>
+        </div>
         <div className="detail">
           <h1>
             Part-Time Admin ·{" "}
@@ -155,12 +183,10 @@ export const Right = () => {
           </p>
         </div>
       </div>
-
       <div className="content-box">
         <div className="year">
           <p>2019 - 2023</p>
         </div>
-
         <div className="detail">
           <h1>
             University Student in IT ·{" "}
@@ -274,7 +300,12 @@ export const Right = () => {
         </div>
         <div className="box-text">
           <h1>
-            <a href="#" className="link6" target="_blank">
+            <a
+              href="#"
+              className="link6"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
               <span>HoneyToast</span>
             </a>
           </h1>
@@ -311,7 +342,7 @@ export const Right = () => {
 
       <div className="content-box2">
         <div className="box-pic">
-          <img src={project4} alt="project 3" />
+          <img src={project4} alt="project 4" />
         </div>
         <div className="box-text">
           <h1>
@@ -354,6 +385,51 @@ export const Right = () => {
         </div>
       </div>
 
+      <div className="content-box2">
+        <div className="box-pic">
+          <img src={project5} alt="project 5" />
+        </div>
+        <div className="box-text">
+          <h1>
+            <a
+              href="https://kavipat.vercel.app/"
+              className="link6"
+              target="_blank"
+            >
+              <span>Kavipat's Portfolio</span>
+            </a>
+          </h1>
+          <div className="box-text-text">
+            <p>
+              This is a minimalist portfolio website designed. The clean and
+              simple layout puts the focus on customer's works. also having
+              Motion design elements are used to create a smooth and engaging
+              user experience. The site is fully responsive, ensuring optimal
+              viewing on all devices.
+            </p>
+          </div>
+          <div className="skill-span">
+            <div className="skill-box">
+              <p>React</p>
+            </div>
+            <div className="skill-box">
+              <p>Vite</p>
+            </div>
+            <div className="skill-box">
+              <p>Tailwind</p>
+            </div>
+          </div>
+          <div className="skill-span">
+            <div className="skill-box">
+              <p>JavaScript</p>
+            </div>
+            <div className="skill-box">
+              <p>Motion</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="for-dot">
         <div className="bouncing-loader">
           <div></div>
@@ -366,6 +442,9 @@ export const Right = () => {
       </div>
       <div className="footer2">
         <h3>&copy; 2024 Built by Sahasawat Nantakun</h3>
+      </div>
+      <div className="footer2">
+        <h3>v.1.0.0</h3>
       </div>
     </div>
   );

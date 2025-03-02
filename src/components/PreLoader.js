@@ -1,23 +1,21 @@
-import React, {useEffect} from 'react';
-import { preLoaderAnimate } from '../animations';
-import '../css/preloader.css';
-
+import React, { useEffect } from "react";
+import { preLoaderAnimate } from "../animations";
+import "../css/preloader.css";
 
 const PreLoader = () => {
+  useEffect(() => {
+    preLoaderAnimate();
+  }, []);
 
-    useEffect(() => {
-        preLoaderAnimate()
-    },[]);
+  return (
+    <div className="preloader">
+      <div className="texts-container">
+        <span>I'm</span>
+        <span>Still</span>
+        <span>Learning</span>
+      </div>
+    </div>
+  );
+};
 
-    return (
-        <div className='preloader'>
-            <div className='texts-container'>
-                <span>Welcome</span>
-                <span>to</span>
-                <span>my  Space</span>
-            </div>
-        </div>
-    )
-}
-
-export default PreLoader
+export default PreLoader;
