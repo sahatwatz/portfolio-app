@@ -13,7 +13,7 @@ import skill9 from "../assets/img/github.svg";
 import skill10 from "../assets/img/toeic2.svg";
 import project1 from "../assets/img/esports-web.png";
 import project2 from "../assets/img/tesla.png";
-import project3 from "../assets/img/honeytoast.png";
+import project3 from "../assets/img/tannarin-port.webp";
 import project4 from "../assets/img/clove.png";
 import project5 from "../assets/img/kavi.png";
 import popuptoeic from "../assets/img/popuptoeic.jpg";
@@ -301,66 +301,22 @@ export const Right = () => {
         <div className="box-text">
           <h1>
             <a
-              href="#"
+              href="https://tannarin.vercel.app"
               className="link6"
               target="_blank"
               rel="noopener noreferrer nofollow"
             >
-              <span>HoneyToast</span>
+              <span>Tannarin's Portfolio</span>
             </a>
           </h1>
           <div className="box-text-text">
             <p>
-              A group project to develop a website for tracking information on
-              high market cap cryptocurrencies, pulling data through an API from
-              external websites for display. It will also feature a database and
-              backend to present general information about each coin on the
-              site.
-            </p>
-          </div>
-          <div className="skill-span">
-            <div className="skill-box">
-              <p>Vue</p>
-            </div>
-            <div className="skill-box">
-              <p>Tailwind</p>
-            </div>
-            <div className="skill-box">
-              <p>JavaScript</p>
-            </div>
-          </div>
-          <div className="skill-span">
-            <div className="skill-box">
-              <p>NodeJS</p>
-            </div>
-            <div className="skill-box">
-              <p>GitHub</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="content-box2">
-        <div className="box-pic">
-          <img src={project4} alt="project 4" />
-        </div>
-        <div className="box-text">
-          <h1>
-            <a
-              href="https://playground-v.vercel.app/"
-              className="link6"
-              target="_blank"
-            >
-              <span>Valentine · Playground</span>
-            </a>
-          </h1>
-          <div className="box-text-text">
-            <p>
-              During Valentine's Day, I created a Web App to enjoy the lovely
-              atmosphere by using React, Vite, Tailwind and simple tools to make
-              this fun Web App. It contains MusicPlayer, a Tricky refuse button
-              that always runs when you try to hover it or even click on it.
-              That means you can't refuse love from creator ha ha.
+              Tannarin's React and Tailwind-powered portfolio highlights her
+              civil engineering expertise with a clean, responsive design. It
+              features her services, projects, and personal details while using
+              semantic HTML for better SEO and accessibility. Smooth navigation
+              and optimized performance ensure a great user experience on all
+              devices.
             </p>
           </div>
           <div className="skill-span">
@@ -425,6 +381,51 @@ export const Right = () => {
             </div>
             <div className="skill-box">
               <p>Motion</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="content-box2">
+        <div className="box-pic">
+          <img src={project4} alt="project 4" />
+        </div>
+        <div className="box-text">
+          <h1>
+            <a
+              href="https://playground-v.vercel.app/"
+              className="link6"
+              target="_blank"
+            >
+              <span>Valentine · Playground</span>
+            </a>
+          </h1>
+          <div className="box-text-text">
+            <p>
+              During Valentine's Day, I created a Web App to enjoy the lovely
+              atmosphere by using React, Vite, Tailwind and simple tools to make
+              this fun Web App. It contains MusicPlayer, a Tricky refuse button
+              that always runs when you try to hover it or even click on it.
+              That means you can't refuse love from creator ha ha.
+            </p>
+          </div>
+          <div className="skill-span">
+            <div className="skill-box">
+              <p>React</p>
+            </div>
+            <div className="skill-box">
+              <p>Vite</p>
+            </div>
+            <div className="skill-box">
+              <p>Tailwind</p>
+            </div>
+          </div>
+          <div className="skill-span">
+            <div className="skill-box">
+              <p>JavaScript</p>
+            </div>
+            <div className="skill-box">
+              <p>GitHub</p>
             </div>
           </div>
         </div>
