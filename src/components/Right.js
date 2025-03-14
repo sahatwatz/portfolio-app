@@ -12,7 +12,7 @@ import skill8 from "../assets/img/css.svg";
 import skill9 from "../assets/img/github.svg";
 import skill10 from "../assets/img/toeic2.svg";
 import project1 from "../assets/img/esports-web.png";
-import project2 from "../assets/img/tesla.png";
+import project2 from "../assets/img/flash-app.png";
 import project3 from "../assets/img/tannarin-port.webp";
 import project4 from "../assets/img/clove.png";
 import project5 from "../assets/img/kavi.png";
@@ -256,46 +256,6 @@ export const Right = () => {
 
       <div className="content-box2">
         <div className="box-pic">
-          <img src={project2} alt="project 2" />
-        </div>
-        <div className="box-text">
-          <h1>
-            <a
-              href="https://www.youtube.com/watch?v=mTp3HBZ9lwE"
-              className="link6"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-            >
-              <span>Tesla (clone)</span>
-            </a>
-          </h1>
-          <div className="box-text-text">
-            <p>
-              An experiment to create an entirely new website, referencing the
-              style of Tesla's official website. The features within the website
-              include Parallax, Background Media, and Animation, among others.
-            </p>
-          </div>
-          <div className="skill-span">
-            <div className="skill-box">
-              <p>HTML</p>
-            </div>
-            <div className="skill-box">
-              <p>JavaScript</p>
-            </div>
-            <div className="skill-box">
-              <p>CSS</p>
-            </div>
-          </div>
-          <div className="skill-span">
-            <div className="skill-box">
-              <p>GitHub</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="content-box2">
-        <div className="box-pic">
           <img src={project3} alt="project 3" />
         </div>
         <div className="box-text">
@@ -381,6 +341,52 @@ export const Right = () => {
             </div>
             <div className="skill-box">
               <p>Motion</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="content-box2">
+        <div className="box-pic">
+          <img src={project2} alt="project 2" />
+        </div>
+        <div className="box-text">
+          <h1>
+            <a
+              href="https://flashcard-shw.vercel.app/"
+              className="link6"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              <span>Flashcard</span>
+            </a>
+          </h1>
+          <div className="box-text-text">
+            <p>
+              Flash Card website, built with React, Vite, Tailwind CSS, and
+              Supabase, allows users to view random question cards. When
+              clicked, the card flips to reveal the answer. Users can add new
+              cards and shuffle them in real-time, with updates synced instantly
+              using Supabase.
+            </p>
+          </div>
+          <div className="skill-span">
+            <div className="skill-box">
+              <p>React</p>
+            </div>
+            <div className="skill-box">
+              <p>Vite</p>
+            </div>
+            <div className="skill-box">
+              <p>Tailwind</p>
+            </div>
+          </div>
+          <div className="skill-span">
+            <div className="skill-box">
+              <p>JavaScript</p>
+            </div>
+            <div className="skill-box">
+              <p>Supabase</p>
             </div>
           </div>
         </div>
