@@ -236,18 +236,18 @@ export const Right = () => {
             </p>
           </div>
           <div className="skill-span">
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-orange-300 to-orange-500">
               <p>HTML</p>
             </div>
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-yellow-200 to-yellow-400">
               <p>JavaScript</p>
             </div>
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-cyan-200 to-cyan-500">
               <p>CSS</p>
             </div>
           </div>
           <div className="skill-span">
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-yellow-300 to-blue-500">
               <p>Python</p>
             </div>
           </div>
@@ -280,22 +280,22 @@ export const Right = () => {
             </p>
           </div>
           <div className="skill-span">
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-cyan-300 to-cyan-800">
               <p>React</p>
             </div>
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-cyan-300 to-violet-300">
               <p>Vite</p>
             </div>
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-cyan-200 to-sky-400">
               <p>Tailwind</p>
             </div>
           </div>
           <div className="skill-span">
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-yellow-200 to-yellow-400">
               <p>JavaScript</p>
             </div>
-            <div className="skill-box">
-              <p>GitHub</p>
+            <div className="skill-box bg-gradient-to-r from-gray-300 to-gray-700">
+              <p className="text-black">GitHub</p>
             </div>
           </div>
         </div>
@@ -325,21 +325,21 @@ export const Right = () => {
             </p>
           </div>
           <div className="skill-span">
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-cyan-300 to-cyan-800">
               <p>React</p>
             </div>
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-cyan-300 to-violet-300">
               <p>Vite</p>
             </div>
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-cyan-200 to-sky-400">
               <p>Tailwind</p>
             </div>
           </div>
           <div className="skill-span">
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-yellow-200 to-yellow-400">
               <p>JavaScript</p>
             </div>
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-gray-300 to-yellow-400">
               <p>Motion</p>
             </div>
           </div>
@@ -371,21 +371,21 @@ export const Right = () => {
             </p>
           </div>
           <div className="skill-span">
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-cyan-300 to-cyan-800">
               <p>React</p>
             </div>
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-cyan-300 to-violet-300">
               <p>Vite</p>
             </div>
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-cyan-200 to-sky-400">
               <p>Tailwind</p>
             </div>
           </div>
           <div className="skill-span">
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-yellow-200 to-yellow-400">
               <p>JavaScript</p>
             </div>
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-green-200 to-green-300">
               <p>Supabase</p>
             </div>
           </div>
@@ -416,21 +416,21 @@ export const Right = () => {
             </p>
           </div>
           <div className="skill-span">
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-cyan-300 to-cyan-800">
               <p>React</p>
             </div>
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-cyan-300 to-violet-300">
               <p>Vite</p>
             </div>
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-cyan-200 to-sky-400">
               <p>Tailwind</p>
             </div>
           </div>
           <div className="skill-span">
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-yellow-200 to-yellow-400">
               <p>JavaScript</p>
             </div>
-            <div className="skill-box">
+            <div className="skill-box bg-gradient-to-r from-gray-300 to-gray-700">
               <p>GitHub</p>
             </div>
           </div>
