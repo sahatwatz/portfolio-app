@@ -6,7 +6,7 @@ import profile from "../assets/img/me.png";
 import { useCopyText } from "./Script";
 
 export const Left = () => {
-  const { popup, handleCopyTexts } = useCopyText();
+  const { popup } = useCopyText();
 
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
@@ -96,7 +96,7 @@ export const Left = () => {
               padding: "8px 12px",
               borderRadius: "22px",
               zIndex: 1000,
-              animation: "fadeInOut 1.5s forwards"
+              animation: "fadeInOut 1.5s forwards",
             }}
           >
             {popup.text}
