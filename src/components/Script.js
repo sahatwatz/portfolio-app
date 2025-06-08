@@ -22,18 +22,22 @@ export const useSectionObserver = () => {
       { id: "about-section", listIndex: 0 },
       { id: "skills-section", listIndex: 1 },
       { id: "experience-section", listIndex: 2 },
-      { id: "projects-section", listIndex: 3 }
+      { id: "projects-section", listIndex: 3 },
     ];
 
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          const listItem = document.querySelector(
-            `.list ul li:nth-child(${
-              sections.findIndex((section) => section.id === entry.target.id) +
-              1
-            })`
+          const index = sections.findIndex(
+            (section) => section.id === entry.target.id
           );
+          if (index === -1) return; // Section not found
+
+          const listItem = document.querySelector(
+            `.list ul li:nth-child(${index + 1})`
+          );
+          if (!listItem) return; // listItem not found
+
           if (entry.isIntersecting) {
             listItem.classList.add("move-animation");
           } else {

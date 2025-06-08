@@ -134,6 +134,30 @@ export const Right = () => {
       </div>
       <div className="content-box">
         <div className="year">
+          <p>06/2025 - PRESENT</p>
+        </div>
+        <div className="detail">
+          <h1>
+            University Student in Humanities ·{" "}
+            <a
+              href="https://www.facebook.com/profile.php?id=100095085167540"
+              className="link4"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              <span>Kasetsart</span>
+            </a>
+          </h1>
+          <p>
+            I'm studying in Humanities Faculty Major English in Kasetsart
+            University, Bangkok. For a better speaking, writting, understanding
+            more in English that will help me to get opportunities in aboard
+            work or being an international teacher in IT.
+          </p>
+        </div>
+      </div>
+      <div className="content-box">
+        <div className="year">
           <p>2025 - PRESENT</p>
         </div>
         <div className="detail">
