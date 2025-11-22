@@ -243,12 +243,12 @@ export const Right = () => {
         <div className="box-text">
           <h1>
             <a
-              href="https://psit-ffa8a.firebaseapp.com/"
+              href="https://karma-2.vercel.app"
               className="link6"
               target="_blank"
               rel="noopener noreferrer nofollow"
             >
-              <span>Karma Massage&Nails</span>
+              <span>Karma Massage & Nails</span>
             </a>
           </h1>
           <div className="box-text-text">
@@ -269,7 +269,7 @@ export const Right = () => {
               <p>Tailwind</p>
             </div>
             <div className="skill-box">
-              <p>CSS</p>
+              <p>Vercel</p>
             </div>
           </div>
         </div>
