@@ -1,9 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "/src/css/footer.css";
-@import "/src/css/font.css";
-@import "/src/css/default.css";
-@import "/src/css/left_element.css";
-@import "/src/css/right_element.css";
-@import "/src/css/media_query.css";
+@import '/src/css/footer.css';
+@import '/src/css/font.css';
+@import '/src/css/default.css';
+@import '/src/css/left_element.css';
+@import '/src/css/right_element.css';
+@import '/src/css/media_query.css';

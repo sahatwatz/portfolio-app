@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
 export const usePopupImage = () => {
   const [popupImage, setPopupImage] = useState(null);
@@ -16,13 +16,13 @@ export const usePopupImage = () => {
 
 export const useSectionObserver = () => {
   useEffect(() => {
-    document.title = "Sahatwatz";
+    document.title = 'Sahatwatz';
 
     const sections = [
-      { id: "about-section", listIndex: 0 },
-      { id: "skills-section", listIndex: 1 },
-      { id: "experience-section", listIndex: 2 },
-      { id: "projects-section", listIndex: 3 },
+      { id: 'about-section', listIndex: 0 },
+      { id: 'skills-section', listIndex: 1 },
+      { id: 'experience-section', listIndex: 2 },
+      { id: 'projects-section', listIndex: 3 },
     ];
 
     const observer = new IntersectionObserver(
@@ -39,9 +39,9 @@ export const useSectionObserver = () => {
           if (!listItem) return; // listItem not found
 
           if (entry.isIntersecting) {
-            listItem.classList.add("move-animation");
+            listItem.classList.add('move-animation');
           } else {
-            listItem.classList.remove("move-animation");
+            listItem.classList.remove('move-animation');
           }
         });
       },
@@ -69,7 +69,7 @@ export const useSectionObserver = () => {
 export const scrollToSection = (id) => {
   const element = document.getElementById(id);
   if (element) {
-    element.scrollIntoView({ behavior: "smooth" });
+    element.scrollIntoView({ behavior: 'smooth' });
   }
 };
 
@@ -81,30 +81,30 @@ export const useCopyText = () => {
       const text = event.target.innerText;
 
       // สร้าง TextArea ชั่วคราวเพื่อคัดลอกข้อความ
-      const textArea = document.createElement("textarea");
+      const textArea = document.createElement('textarea');
       textArea.value = text;
       document.body.appendChild(textArea);
       textArea.select();
-      document.execCommand("copy");
+      document.execCommand('copy');
 
       // ลบ TextArea ชั่วคราว
       document.body.removeChild(textArea);
 
       // แสดงข้อความว่า "คัดลอกแล้ว"
-      setMessage({ text: "Email Copied!" });
+      setMessage({ text: 'Email Copied!' });
       setTimeout(() => {
         setMessage(null);
       }, 2000); // ซ่อนข้อความหลังจาก 2 วินาที
     };
 
-    const copyTextElement = document.getElementById("copyText");
+    const copyTextElement = document.getElementById('copyText');
     if (copyTextElement) {
-      copyTextElement.addEventListener("click", handleCopyText);
+      copyTextElement.addEventListener('click', handleCopyText);
     }
 
     return () => {
       if (copyTextElement) {
-        copyTextElement.removeEventListener("click", handleCopyText);
+        copyTextElement.removeEventListener('click', handleCopyText);
       }
     };
   }, []);

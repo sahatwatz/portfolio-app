@@ -1,9 +1,9 @@
-import logo1 from "../assets/img/nav-icon1.svg";
-import logo2 from "../assets/img/nav-icon2.svg";
-import logo3 from "../assets/img/nav-icon3.svg";
-import logo4 from "../assets/img/githubicon.svg";
-import profile from "../assets/img/me.png";
-import { useCopyText } from "./Script";
+import logo1 from '../assets/img/nav-icon1.svg';
+import logo2 from '../assets/img/nav-icon2.svg';
+import logo3 from '../assets/img/nav-icon3.svg';
+import logo4 from '../assets/img/githubicon.svg';
+import profile from '../assets/img/me.png';
+import { useCopyText } from './Script';
 
 export const Left = () => {
   const { popup } = useCopyText();
@@ -11,7 +11,7 @@ export const Left = () => {
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
@@ -32,16 +32,16 @@ export const Left = () => {
       <div className="left-content-box">
         <div class="list">
           <ul>
-            <li onClick={() => scrollToSection("about-section")}>
+            <li onClick={() => scrollToSection('about-section')}>
               <span>ABOUT</span>
             </li>
-            <li onClick={() => scrollToSection("skills-section")}>
+            <li onClick={() => scrollToSection('skills-section')}>
               <span>SKILLs</span>
             </li>
-            <li onClick={() => scrollToSection("experience-section")}>
+            <li onClick={() => scrollToSection('experience-section')}>
               <span>EXPERIENCE</span>
             </li>
-            <li onClick={() => scrollToSection("projects-section")}>
+            <li onClick={() => scrollToSection('projects-section')}>
               <span>PROJECTs</span>
             </li>
           </ul>
@@ -87,16 +87,16 @@ export const Left = () => {
           <div
             className="popup-message"
             style={{
-              position: "absolute",
-              top: "100%",
-              margin: "0",
-              background: "white",
+              position: 'absolute',
+              top: '100%',
+              margin: '0',
+              background: 'white',
               opacity: 0,
-              color: "black",
-              padding: "8px 12px",
-              borderRadius: "22px",
+              color: 'black',
+              padding: '8px 12px',
+              borderRadius: '22px',
               zIndex: 1000,
-              animation: "fadeInOut 1.5s forwards",
+              animation: 'fadeInOut 1.5s forwards',
             }}
           >
             {popup.text}

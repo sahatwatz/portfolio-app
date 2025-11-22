@@ -66,6 +66,7 @@ Right Body
   color: #ffffff;
   font-weight: 400;
 }
+
 .link4:hover span {
   color: rgb(255, 251, 15);
 }
@@ -74,6 +75,7 @@ Right Body
   color: #ffffff;
   font-weight: 400;
 }
+
 .link5:hover span {
   color: rgb(255, 123, 35);
 }
@@ -111,7 +113,8 @@ Right Body
 }
 
 .content-box2:hover {
-  background-color: rgba(255, 255, 255, 0.01); /* Semi-transparent white box */
+  background-color: rgba(255, 255, 255, 0.01);
+  /* Semi-transparent white box */
 }
 
 .content-box2:hover img {
@@ -132,6 +135,7 @@ Right Body
   width: 40%;
   position: relative;
 }
+
 .box-pic img {
   border-radius: 2%;
   max-width: 100%;
@@ -158,8 +162,10 @@ Right Body
   margin-left: 10%;
   width: 80%;
   height: auto;
-  word-wrap: break-word; /* Forces text to wrap within the div */
-  overflow-wrap: break-word; /* Ensures compatibility */
+  word-wrap: break-word;
+  /* Forces text to wrap within the div */
+  overflow-wrap: break-word;
+  /* Ensures compatibility */
   white-space: normal;
 }
 
@@ -184,7 +190,7 @@ Right Body
   height: auto;
   padding-left: 10px;
   padding-right: 10px;
-  background-color: rgb(248, 219, 180);
+  border: solid 1px #ddd;
   border-radius: 25px;
 }
 
@@ -194,7 +200,8 @@ Right Body
   font-size: 0.8rem;
   position: relative;
   font-weight: 400;
-  color: rgba(0, 0, 0, 0.781);
+  border-radius: 25px;
+  color: #ddd;
 }
 
 /* Popup background */
@@ -210,7 +217,9 @@ Right Body
   align-items: center;
   z-index: 1000;
   cursor: pointer;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease;
 }
 
 .popup.show {
@@ -251,6 +260,7 @@ Right Body
   margin-left: 10%;
   font-weight: 400;
 }
+
 .link6:hover span {
   color: antiquewhite;
 }
@@ -267,17 +277,21 @@ Right Body
 .detail {
   width: 65%;
 }
+
 .detail h1 {
   font-size: 18px;
   font-weight: 400;
 }
+
 .detail h1:hover {
   color: bisque;
 }
 
 .content-box:hover {
-  background-color: rgba(255, 255, 255, 0.01); /* Semi-transparent white box */
+  background-color: rgba(255, 255, 255, 0.01);
+  /* Semi-transparent white box */
 }
+
 .content-box h2 {
   margin-top: 0;
 }
@@ -288,6 +302,7 @@ Right Body
   justify-content: space-around;
   gap: 20px;
 }
+
 .content-box1 img {
   width: 100px;
   border-radius: 6%;
@@ -296,7 +311,8 @@ Right Body
 }
 
 .content {
-  padding-bottom: 40px; /* To ensure there's some padding at the bottom */
+  padding-bottom: 40px;
+  /* To ensure there's some padding at the bottom */
 }
 
 .content2 h1 {

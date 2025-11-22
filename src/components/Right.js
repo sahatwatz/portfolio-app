@@ -1,22 +1,22 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { useState } from "react";
-import skill1 from "../assets/img/react.svg";
-import skill2 from "../assets/img/figma.svg";
-import skill3 from "../assets/img/premier.svg";
-import skill4 from "../assets/img/photoshop.svg";
-import skill5 from "../assets/img/javascript.svg";
-import skill6 from "../assets/img/tailwindcss.svg";
-import skill7 from "../assets/img/html.svg";
-import skill8 from "../assets/img/css.svg";
-import skill9 from "../assets/img/github.svg";
-import skill10 from "../assets/img/toeic2.svg";
-import project1 from "../assets/img/esports-web.png";
-import project2 from "../assets/img/flash-app.png";
-import project3 from "../assets/img/tannarin-port.webp";
-import project4 from "../assets/img/clove.png";
-import project5 from "../assets/img/kavi.png";
-import popuptoeic from "../assets/img/popuptoeic.jpg";
+import { useState } from 'react';
+import skill1 from '../assets/img/react.svg';
+import skill2 from '../assets/img/figma.svg';
+import skill3 from '../assets/img/premier.svg';
+import skill4 from '../assets/img/photoshop.svg';
+import skill5 from '../assets/img/javascript.svg';
+import skill6 from '../assets/img/tailwindcss.svg';
+import skill7 from '../assets/img/html.svg';
+import skill8 from '../assets/img/css.svg';
+import skill9 from '../assets/img/github.svg';
+import skill10 from '../assets/img/toeic2.svg';
+import project1 from '../assets/img/karma.png';
+import project2 from '../assets/img/flash-app.png';
+import project3 from '../assets/img/tannarin-port.webp';
+import project4 from '../assets/img/clove.png';
+import project5 from '../assets/img/kavi.png';
+import popuptoeic from '../assets/img/popuptoeic.jpg';
 
 export const Right = () => {
   const [popupImage, setPopupImage] = useState(null);
@@ -33,27 +33,27 @@ export const Right = () => {
     <div className="right-column">
       <div id="about-section" className="content">
         <p>
-          As a student who studied at{" "}
+          As a student who studied at{' '}
           <a
             href="https://www.kmitl.ac.th/"
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
             <b>KMITL</b>
-          </a>{" "}
+          </a>{' '}
           Faculty of Information Technology, I have learned many things that
           will be useful in the future. However, my expertise lies in website
-          development as a{" "}
+          development as a{' '}
           <a href="#" className="link1">
             <span>Frontend Developer</span>
           </a>
           . I am proficient in using HTML, CSS, and JavaScript, including
           frameworks like React and Vue.js. Additionally, I have experience
-          using other web development tools such as{" "}
+          using other web development tools such as{' '}
           <a href="#" className="link2">
             <span>GitHub</span>
-          </a>{" "}
-          and{" "}
+          </a>{' '}
+          and{' '}
           <a href="#" className="link3">
             <span>Figma</span>
           </a>
@@ -138,7 +138,7 @@ export const Right = () => {
         </div>
         <div className="detail">
           <h1>
-            University Student in Humanities ·{" "}
+            University Student in Humanities ·{' '}
             <a
               href="https://www.facebook.com/profile.php?id=100095085167540"
               className="link4"
@@ -162,7 +162,7 @@ export const Right = () => {
         </div>
         <div className="detail">
           <h1>
-            Frontend Developer ·{" "}
+            Frontend Developer ·{' '}
             <a
               href="https://www.facebook.com/profile.php?id=100095085167540"
               className="link4"
@@ -188,7 +188,7 @@ export const Right = () => {
         </div>
         <div className="detail">
           <h1>
-            Part-Time Admin ·{" "}
+            Part-Time Admin ·{' '}
             <a
               href="https://www.facebook.com/profile.php?id=100095085167540"
               className="link4"
@@ -213,7 +213,7 @@ export const Right = () => {
         </div>
         <div className="detail">
           <h1>
-            University Student in IT ·{" "}
+            University Student in IT ·{' '}
             <a
               href="https://www.kmitl.ac.th/"
               className="link5"
@@ -248,31 +248,28 @@ export const Right = () => {
               target="_blank"
               rel="noopener noreferrer nofollow"
             >
-              <span>Esports Trends</span>
+              <span>Karma Massage&Nails</span>
             </a>
           </h1>
           <div className="box-text-text">
             <p>
-              A mini project to design a website about E-sports using basic web
-              development knowledge, including HTML, JavaScript, and CSS.
-              Additionally, there's a small application written in Python
-              available for download within the website.
+              Designed and deployed a high-performance landing page for a
+              Phuket-based wellness center. The site features a mobile-first
+              design, an interactive service menu, and direct-to-call booking
+              integration, streamlining the customer journey from discovery to
+              appointment. Hosted on Vercel for optimal load speeds and
+              reliability
             </p>
           </div>
           <div className="skill-span">
-            <div className="skill-box bg-gradient-to-r from-orange-300 to-orange-500">
-              <p>HTML</p>
+            <div className="skill-box bg-transparent white">
+              <p>NextJS</p>
             </div>
-            <div className="skill-box bg-gradient-to-r from-yellow-200 to-yellow-400">
-              <p>JavaScript</p>
+            <div className="skill-box">
+              <p>Tailwind</p>
             </div>
-            <div className="skill-box bg-gradient-to-r from-cyan-200 to-cyan-500">
+            <div className="skill-box">
               <p>CSS</p>
-            </div>
-          </div>
-          <div className="skill-span">
-            <div className="skill-box bg-gradient-to-r from-yellow-300 to-blue-500">
-              <p>Python</p>
             </div>
           </div>
         </div>
@@ -304,21 +301,21 @@ export const Right = () => {
             </p>
           </div>
           <div className="skill-span">
-            <div className="skill-box bg-gradient-to-r from-cyan-300 to-cyan-800">
+            <div className="skill-box ">
               <p>React</p>
             </div>
-            <div className="skill-box bg-gradient-to-r from-cyan-300 to-violet-300">
+            <div className="skill-box ">
               <p>Vite</p>
             </div>
-            <div className="skill-box bg-gradient-to-r from-cyan-200 to-sky-400">
+            <div className="skill-box">
               <p>Tailwind</p>
             </div>
           </div>
           <div className="skill-span">
-            <div className="skill-box bg-gradient-to-r from-yellow-200 to-yellow-400">
+            <div className="skill-box ">
               <p>JavaScript</p>
             </div>
-            <div className="skill-box bg-gradient-to-r from-gray-300 to-gray-700">
+            <div className="skill-box ">
               <p className="text-black">GitHub</p>
             </div>
           </div>
@@ -349,21 +346,21 @@ export const Right = () => {
             </p>
           </div>
           <div className="skill-span">
-            <div className="skill-box bg-gradient-to-r from-cyan-300 to-cyan-800">
+            <div className="skill-box ">
               <p>React</p>
             </div>
-            <div className="skill-box bg-gradient-to-r from-cyan-300 to-violet-300">
+            <div className="skill-box ">
               <p>Vite</p>
             </div>
-            <div className="skill-box bg-gradient-to-r from-cyan-200 to-sky-400">
+            <div className="skill-box ">
               <p>Tailwind</p>
             </div>
           </div>
           <div className="skill-span">
-            <div className="skill-box bg-gradient-to-r from-yellow-200 to-yellow-400">
+            <div className="skill-box ">
               <p>JavaScript</p>
             </div>
-            <div className="skill-box bg-gradient-to-r from-gray-300 to-yellow-400">
+            <div className="skill-box ">
               <p>Motion</p>
             </div>
           </div>
@@ -395,21 +392,21 @@ export const Right = () => {
             </p>
           </div>
           <div className="skill-span">
-            <div className="skill-box bg-gradient-to-r from-cyan-300 to-cyan-800">
+            <div className="skill-box ">
               <p>React</p>
             </div>
-            <div className="skill-box bg-gradient-to-r from-cyan-300 to-violet-300">
+            <div className="skill-box ">
               <p>Vite</p>
             </div>
-            <div className="skill-box bg-gradient-to-r from-cyan-200 to-sky-400">
+            <div className="skill-box ">
               <p>Tailwind</p>
             </div>
           </div>
           <div className="skill-span">
-            <div className="skill-box bg-gradient-to-r from-yellow-200 to-yellow-400">
+            <div className="skill-box ">
               <p>JavaScript</p>
             </div>
-            <div className="skill-box bg-gradient-to-r from-green-200 to-green-300">
+            <div className="skill-box ">
               <p>Supabase</p>
             </div>
           </div>
@@ -440,21 +437,21 @@ export const Right = () => {
             </p>
           </div>
           <div className="skill-span">
-            <div className="skill-box bg-gradient-to-r from-cyan-300 to-cyan-800">
+            <div className="skill-box">
               <p>React</p>
             </div>
-            <div className="skill-box bg-gradient-to-r from-cyan-300 to-violet-300">
+            <div className="skill-box">
               <p>Vite</p>
             </div>
-            <div className="skill-box bg-gradient-to-r from-cyan-200 to-sky-400">
+            <div className="skill-box">
               <p>Tailwind</p>
             </div>
           </div>
           <div className="skill-span">
-            <div className="skill-box bg-gradient-to-r from-yellow-200 to-yellow-400">
+            <div className="skill-box">
               <p>JavaScript</p>
             </div>
-            <div className="skill-box bg-gradient-to-r from-gray-300 to-gray-700">
+            <div className="skill-box">
               <p>GitHub</p>
             </div>
           </div>

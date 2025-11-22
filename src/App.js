@@ -1,14 +1,14 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+import './App.css';
 
-import Left from "./components/Left";
-import Right from "./components/Right";
+import Left from './components/Left';
+import Right from './components/Right';
 import {
   usePopupImage,
   useSectionObserver,
   scrollToSection,
-} from "./components/Script";
-import PreLoader from "./components/PreLoader";
+} from './components/Script';
+import PreLoader from './components/PreLoader';
 
 function App() {
   const { popupImage, openPopup, closePopup } = usePopupImage();

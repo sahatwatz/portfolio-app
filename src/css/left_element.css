@@ -98,7 +98,7 @@ Left Body
   color: #ffffff;
 }
 .list ul li:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 30%;
   height: 100%;
