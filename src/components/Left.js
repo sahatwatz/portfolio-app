@@ -21,11 +21,11 @@ export const Left = () => {
         <div className="overtop">
           <img src={profile} className="profiles" alt="Header Img" />
         </div>
-        <div className="top-content">
+        <div className="top-content py-2">
           <h1>Sahasawat Nantakun</h1>
           {/* <img src={flag} className="flagpic" alt="Header Img" /> */}
         </div>
-        <div className="role">
+        <div className="role py-1">
           <h2>Freelance Frontend Developer</h2>
         </div>
       </div>
@@ -52,6 +52,7 @@ export const Left = () => {
         <a
           href="https://www.linkedin.com/in/sahasawat-nantakun-869a64323/"
           target="_blank"
+          style={{ width: 25, height: 15 }}
           rel="noopener noreferrer nofollow"
         >
           <img src={logo1} alt="Logo 1" />
@@ -59,6 +60,7 @@ export const Left = () => {
         <a
           href="https://www.facebook.com/booo.483851/"
           target="_blank"
+          style={{ width: 25, height: 15 }}
           rel="noopener noreferrer nofollow"
         >
           <img src={logo2} alt="Logo 2" />
@@ -66,6 +68,7 @@ export const Left = () => {
         <a
           href="https://www.instagram.com/sahatwatx/"
           target="_blank"
+          style={{ width: 25, height: 15 }}
           rel="noopener noreferrer nofollow"
         >
           <img src={logo3} alt="Logo 3" />
@@ -73,7 +76,7 @@ export const Left = () => {
         <a
           href="https://github.com/sahatwatz"
           target="_blank"
-          style={{ width: 30, height: 20 }}
+          style={{ width: 25, height: 15 }}
           rel="noopener noreferrer nofollow"
         >
           <img src={logo4} alt="Logo 4" />

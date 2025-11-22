@@ -8,15 +8,17 @@ Media Query
     width: 100%;
     justify-content: center;
   }
+
   .left-column {
-    width: 200%;
+    width: 100%;
     text-align: center;
   }
 
   .left-content-box {
-    width: 90%;
+    width: 100%;
     text-align: center;
   }
+
   .right-column {
     width: 100%;
     margin-left: 0;
@@ -84,9 +86,11 @@ Media Query
     flex-direction: row;
     align-items: center;
   }
+
   .content-box1 img {
     width: 20px;
   }
+
   .list ul {
     font-size: 80%;
     justify-content: space-around;
@@ -99,16 +103,20 @@ Media Query
     width: 100%;
     justify-content: center;
   }
+
   .left-column {
-    width: 200%;
+    width: 100%;
     margin-bottom: 20px;
     text-align: center;
   }
 
   .left-content-box {
+    padding: 10%;
     width: 100%;
     text-align: center;
+    font-size: 10px;
   }
+
   .right-column {
     width: 100%;
     margin-left: 0;
@@ -244,6 +252,7 @@ Media Query
   .list ul {
     justify-content: space-around;
   }
+
   .content-box1 img {
     width: 30px;
   }
@@ -261,10 +270,12 @@ Media Query
     width: 100%;
     justify-content: center;
   }
+
   .left-content-box {
     width: 100%;
     text-align: center;
   }
+
   .right-column {
     width: 100%;
     margin-left: 0;
@@ -327,11 +338,11 @@ Media Query
   }
 
   .content {
-    width: 160%;
+    width: 100%;
   }
 
   .right-column {
-    width: 60%;
+    width: 100%;
     margin-left: 0;
     padding: 10px;
   }
@@ -359,7 +370,7 @@ Media Query
 
   .content-box {
     height: auto;
-    width: 150%;
+    width: 100%;
     flex-direction: column;
     align-items: flex-start;
   }
@@ -420,11 +431,11 @@ Media Query
   }
 
   .content {
-    width: 160%;
+    width: 100%;
   }
 
   .right-column {
-    width: 60%;
+    width: 100%;
     margin-left: 0;
     padding: 10px;
   }
@@ -453,7 +464,7 @@ Media Query
 
   .content-box {
     height: auto;
-    width: 150%;
+    width: 100%;
     flex-direction: column;
     align-items: flex-start;
   }
@@ -523,10 +534,12 @@ Media Query
   .profiles {
     width: 40%;
   }
+
   .left-content-box {
     width: 100%;
     text-align: center;
   }
+
   .top-content {
     justify-content: center;
     width: 100%;
@@ -564,7 +577,7 @@ Media Query
   }
 
   .right-column {
-    width: 75%;
+    width: 50%;
     margin-left: 50%;
     padding: 20px;
   }
@@ -572,11 +585,13 @@ Media Query
   .profiles {
     width: 30%;
   }
+
   .left-content-box {
     width: 100%;
     justify-content: center;
     text-align: center;
   }
+
   .top-content {
     justify-content: center;
     width: 100%;
@@ -603,6 +618,7 @@ Media Query
     flex-direction: row;
   }
 }
+
 /* another Desktop 2*/
 @media screen and (min-width: 1201px) and (max-width: 1577px) {
   .left-column {
@@ -612,7 +628,7 @@ Media Query
   }
 
   .right-column {
-    width: 75%;
+    width: 50%;
     margin-left: 50%;
     padding: 20px;
   }
@@ -620,11 +636,13 @@ Media Query
   .profiles {
     width: 30%;
   }
+
   .left-content-box {
     width: 100%;
     justify-content: center;
     text-align: center;
   }
+
   .top-content {
     justify-content: center;
     width: 100%;
@@ -661,7 +679,7 @@ Media Query
   }
 
   .right-column {
-    width: 75%;
+    width: 50%;
     margin-left: 50%;
     padding: 20px;
   }
@@ -669,10 +687,12 @@ Media Query
   .profiles {
     width: 50%;
   }
+
   .left-content-box {
-    width: 120%;
+    width: 100%;
     text-align: center;
   }
+
   .top-content {
     justify-content: center;
     width: 100%;
@@ -709,7 +729,7 @@ Media Query
   }
 
   .right-column {
-    width: 75%;
+    width: 50%;
     margin-left: 50%;
     padding: 20px;
   }
@@ -717,10 +737,12 @@ Media Query
   .profiles {
     width: 30%;
   }
+
   .left-content-box {
-    width: 120%;
+    width: 100%;
     text-align: center;
   }
+
   .top-content {
     justify-content: center;
     width: 100%;
@@ -757,7 +779,7 @@ Media Query
   }
 
   .right-column {
-    width: 100%;
+    width: 50%;
     margin-left: 50%;
     padding: 20px;
   }
@@ -765,10 +787,12 @@ Media Query
   .profiles {
     width: 30%;
   }
+
   .left-content-box {
-    width: 140%;
+    width: 100%;
     text-align: center;
   }
+
   .top-content {
     justify-content: center;
     width: 100%;
@@ -795,6 +819,7 @@ Media Query
     flex-direction: row;
   }
 }
+
 /*zoom out than 50% Desktop */
 @media screen and (min-width: 7001px) and (max-width: 300000px) {
   .left-column {
@@ -812,10 +837,12 @@ Media Query
   .profiles {
     width: 30%;
   }
+
   .left-content-box {
     width: 100%;
     text-align: center;
   }
+
   .top-content {
     justify-content: center;
     width: 100%;
